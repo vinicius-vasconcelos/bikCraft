@@ -1,0 +1,523 @@
+/* ------------------------------------------------ Estilos Gerais ------------------------------------------------ */
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 20px; 
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.btn {
+    border: 3px solid #fec63e;
+    padding: 10px 30px;
+    color: #fec63e;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;  
+}
+
+.btn:hover {
+    transition: all .3s ease;
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn.btn-preto:hover {
+    transition: all .3s ease;
+    color: #000;
+    border-color: #000; 
+}
+
+.subtitulo {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: .1em;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px; 
+}
+
+.subtitulo::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #000;
+    margin: 8px auto;
+}
+
+/* ------------------------------------------------ Header ------------------------------------------------ */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 0;
+    background-color: #fec63e;
+    z-index: 1;
+}
+
+.header-menu {
+    text-align: right; 
+}
+
+.header-menu ul li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.header-menu ul li a {
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+}
+
+.header-menu ul li a:hover {
+    transition: all .3s ease;
+    color: #fff;
+}
+
+/* ------------------------------------------------ Introdução  ------------------------------------------------*/
+.introducao {
+    width: 100%;
+    height: 360px;
+    background: url(../image/bg.jpg) no-repeat top center;
+    background-size: cover;
+    margin-top: 92px;
+    text-align: center;
+    padding-top: 80px; 
+}
+
+.introducao h1 {
+    font-size: 48px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.quote-externo {
+    max-width: 320px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.quote-externo p {
+    font-style: italic;
+}
+
+.quote-externo p::before,  .quote-externo p::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #fff;
+    margin: 14px auto 10px auto;
+}
+
+.quote-externo cite {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: .1em
+}
+
+/* ------------------------------------------------ Produtos ------------------------------------------------ */
+.produtos {
+    padding: 60px 0;
+}
+
+.produtos-lista li {
+    background-color: #fec63e;
+    text-align: center
+}
+
+.produtos-lista li img {
+    margin: 0 auto;
+}
+
+.produtos-lista li h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 20px; 
+}
+
+.produtos-lista li h3::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #000;
+    margin: 2px auto;
+}
+
+.produtos-lista li p {
+    padding: 10px 20px 20px 20px;
+}
+
+.produtos-icone {
+    background-color: #000;
+    padding: 20px;
+}
+
+.call {
+    padding-top: 40px; 
+    text-align: center;
+    clear: both;
+}
+
+.call p {
+    margin-bottom: 40px;
+}
+
+/* ------------------------------------------------ Produtos ------------------------------------------------ */
+
+.portifolio {
+    width: 100%;
+    background-color: #000;
+    padding: 40px;
+}
+
+.portifolio .subtitulo {
+    color: #fec63e;
+}
+
+.portifolio .subtitulo::after {
+    background-color: #fec63e;
+}
+
+.portifolio-lista li:last-child {
+    margin-top: 20px;
+}
+
+.portifolio .call p {
+    color: #fff;
+}
+
+/* ------------------------------------------------ Qualidade ------------------------------------------------ */
+.qualidade {
+    padding: 60px 0;
+    position: relative;
+}
+
+.qualidade::after {
+    content: "";
+    width: 634px;
+    height: 83px;
+    display: block;
+    background: url(../image/linhas.png) no-repeat center;
+    position: absolute;
+    top: 209px;
+    right: 162px;
+    z-index: -1;
+}
+
+.qualidade-lista {
+    padding-top: 20px;
+}
+
+.qualidade img {
+    margin: 0 auto;
+}
+
+.qualidade-lista li {
+    text-align: center;
+    padding: 0 40px;
+}
+
+.qualidade-lista li h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 20px; 
+}
+
+.qualidade-lista li h3::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #000;
+    margin: 6px auto;
+}
+
+/* ------------------------------------------------ Quebra ------------------------------------------------ */
+.quebra {
+    width: 100%;
+    height: 220px;
+    background: url(../image/bg-footer.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 40px; 
+}
+
+.quebra .quote-externo {
+    max-width: 400px;
+}
+
+/* ------------------------------------------------ Footer ------------------------------------------------ */
+.footer {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer h3 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #fec63e;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
+.footer h3::after { 
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #fec63e;
+    margin: 0 6px 12px 0;
+}
+
+.footer-historia {
+    padding-right: 40px; 
+}
+
+.footer-contato ul li{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-redes ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-redes ul li a {
+    border: 3px solid #fec63e;
+    display: block;
+    padding: 10px;
+}
+
+.footer-redes ul li a:hover {
+    transition: all .3s ease;
+    border-color: #fff;
+}
+
+.copy {
+    width: 100%;
+    background-color: #fec63e;
+    padding: 20px 0;
+}
+
+
+/* ------------------------------------------------ Animações ------------------------------------------------ */
+.js .introducao h1, .js .introducao blockquote, .js .introducao .btn, .js .animar {
+    opacity: 0;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -20px, 0);
+            transform: translate3d(0, -20px, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -20px, 0);
+            transform: translate3d(0, -20px, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    }
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+        animation-name: fadeInDown;
+}
+
+.foco {
+    border-color: #fff; 
+}
+
+
+/* ------------------------------------------------ Formulário ------------------------------------------------ */
+.body-contato {
+    background-color: #000;
+}
+
+#contato {
+    width: 100%;
+    height: 90vh;
+    margin-top: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 30%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid #fec63e;
+}
+
+form label {
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 10px;;
+    margin-left: 55px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 80%;
+    height: 28px;
+    display: block;
+    margin: 5px auto;
+    padding: 5px;
+    background-color: transparent;
+    border: 3px solid #fec63e;
+    color: #fec63e;
+    outline: none;
+}
+
+form input::placeholder, form textarea::placeholder{
+    color: rgbA(254, 199, 62, .7);
+    font-size: 12PX;
+}
+
+form textarea {
+    height: 180px;
+}
+
+form button {
+    display: block;
+    width: 30%;
+    height: 40px;
+    margin: 10px auto;
+    background-color: transparent;
+    border: 3px solid #fec63e;
+    color: #fec63e;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
+
+form button:hover {
+    border-color: #fff;
+    transition: all .3s ease;
+}
+
+.sub-titulo-contato {
+    color: #fec63e;
+    margin: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: .1em;
+    text-transform: uppercase
+}
+
+.sub-titulo-contato::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #fec63e; 
+    margin: 8px auto;
+}
+
+input.nao-aparece, label.nao-aparece {
+    display: none !important;
+}
+
+.form-erro {
+    width: 80%;
+    margin: 5px auto;
+    padding: 5px;
+    border: 3px solid #d9534f;
+    background-color: transparent;
+    color: #d9534f;
+    font-size: 20;
+    font-weight: bold;
+}
+
+.form-erro span {
+    display: block;
+    text-transform: uppercase
+}
+
+.form-erro p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.form-send {
+    width: 80%;
+    margin: 5px auto;
+    padding: 5px;
+    border: 3px solid #5bb85c;
+    background-color: transparent;
+    color: #5bb85c;
+    font-size: 20;
+    font-weight: bold;
+}
+
+.form-send span {
+    display: block;
+    text-transform: uppercase
+}
+
+.form-send p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}

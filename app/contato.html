@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Home</title>
+
+        <link rel="stylesheet" href="./public/css/normalize.css">
+        <link rel="stylesheet" href="./public/css/reset.css">
+        <link rel="stylesheet" href="./public/css/grid.css">
+        <link rel="stylesheet" href="./public/css/style.css">
+        <link rel="stylesheet" href="./public/css/responsivo.css">
+
+        <script src="./public/js/libs/modernizr.custom.45655.js"></script>
+
+    </head>
+    <body class="body-contato">
+        <header class="header">
+            <div class="container">
+                <a href="index.html" class="grid-4"><img src="./public/image/logo.png" alt="Logo BikCraft"></a>
+                <nav class="grid-12 header-menu">
+                    <ul>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="portifolio.html">Portifólio</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="contato">
+            <form method="post">
+                <h2 class="sub-titulo-contato">Contato</h2>
+                <label for="nome">Nome (*):</label>
+                <input type="text" name="nome" id="nome" autocomplete="off" autofocus>
+                <label for="email">E-mail (*):</label>
+                <input type="text" name="email" id="email" placeholder="fulado@gmail.com" autocomplete="off">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" name="telefone" id="telefone" placeholder="(18) 99999-9999" autocomplete="off">
+                <label for="assunto">Assunto (*):</label>
+                <input type="text" name="assunto" id="assunto" autocomplete="off">
+
+                <label class="nao-aparece" for="em-branco">Deixe em branco se não for um robo.</label>
+                <input class="nao-aparece" type="text" name="em-branco" id="em-branco" autocomplete="off">
+                <label class="nao-aparece" for="https://">Não mude se não for um robo.</label>
+                <input class="nao-aparece" type="text" name="https://" id="https://" value="https://" autocomplete="off">
+               
+                <label for="mensagem">Mensagem (*):</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem..."></textarea>
+                <button type="button" onclick="enviarForm()" id="enviar">Enviar</button>
+
+                <div id="report"></div>
+            </form>
+        </section>
+    </body>
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous">
+    </script>
+    <script src="./public/js/plugins.js"></script>
+    <script src="./public/js/main.js"></script>
+    <script src="./public/js/formulario.js"></script>
+
+</html>

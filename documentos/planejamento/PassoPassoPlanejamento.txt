@@ -1,0 +1,9 @@
+1.0 - Briefing
+2.0 - Min-Mapa(O que vai ter em cada página - Arquitetura da informação(AI))
+3.0 - Documentação
+4.0 - Wireframe (Sem cores, apenas posicionamentos)
+5.0 - Designer (incremento do wireframe)
+	5.1 - Estilo
+	5.2 - Tipográfia
+	5.3 - Cores
+6.0 - codificação
