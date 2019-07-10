@@ -6,5 +6,7 @@ Projeto feito junto ao curso de desenvolvimento web da <em><a href="https://www.
 
 <ul>
   <li>HTML5</li>
-  <li>CSS3 - FLEXBOX</li>
+  <li>CSS (medias scree - adaptavel)</li>
+  <li>JS/jquery(plugins - responsiveSlide.js, visibility.js, animate.css)</li>
+  <li>Fomulário para e-mail (ainda em contrução)</li>
 </ul>
